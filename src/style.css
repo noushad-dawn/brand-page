@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+}
+:root{
+    --red:#D01C28;
+    --grey:#5A5959;
+}
+
+nav{
+    height: 72px;
+    width: 1440;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+.navlogo img{
+    width: 76px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.login{
+ width: Hug (75px)px;
+height: Hug (31px)px;
+top: 21px;
+left: 1286px;
+padding: 6px 16px 6px 16px;
+gap: 10px;
+font-size: 16px;
+background-color: var(--red);
+color: #fff;
+border: none;
+}
+
+main{
+    display: flex;
+    width: 530px;
+    height: calc(100vh - 75px);
+    margin: 0px 157px;
+    gap: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 1,125px;
+    height: 613px;
+    gap: 12px;
+    justify-content: center;
+
+}
+h1{
+width: 595px;
+height: 306px;
+font-size: 108px;
+font-weight: 800;
+line-height: 102px;
+text-align: left;
+}
+.details{
+width: 404px;
+height: 91px;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color: var(--grey);
+}
+.buttons{
+    display: flex;
+    gap: 16px;
+}
+.shop-now{
+    width: Hug (150px)px;
+height: Hug (41px)px;
+padding: 6px 16px 6px 16px;
+gap: 10px;
+background: var(--red);
+color: #fff;
+font-size: 20px;
+border: none;
+}
+.category{
+width: Hug (141px)px;
+height: Hug (41px)px;
+padding: 6px 16px 6px 16px;
+gap: 10px;
+border: 1px 0px 0px 0px;
+font-size: 20px;
+background: transparent;
+color: var(--grey);
+border: 2px solid var(--grey);
+}
+.store-img{
+    display: flex;
+    gap: 10px;
+}
+
+.product-img img{
+    width: 530px;
+    height: 487.06px;
+}
+.product-img{
+    width: Hug (141px)px;
+    height: Hug (41px)px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
